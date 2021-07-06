@@ -1,0 +1,2 @@
+export const SET_TICKETS = 'SET_TICKETS',
+    SET_LOADED = 'SET_LOADED'

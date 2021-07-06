@@ -1,0 +1,39 @@
+@import "fonts";
+@import "/src/scss/variables";
+@import "libs/normalize";
+
+@import "components/all";
+
+body {
+    background-color: $white;
+}
+
+.wrapper {
+    width: calc(100vw - 300px);
+    height: 100%;
+    margin: 50px auto;
+    max-width: 1400px;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    &__tickets {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 40px;
+        border: 1px solid $black;
+    }
+
+    &__filters {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 40px;
+        border: 1px solid $black;
+    }
+}
