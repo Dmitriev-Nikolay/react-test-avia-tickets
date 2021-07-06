@@ -6,10 +6,11 @@ const Ticket = () => {
     return (
         <div className="ticket-block">
             <div className="ticket-block__head">
-                <div className="ticket-block__head-title-airlines">
-                </div>
+                <p className="ticket-block__head-title-airlines">
+                    Название компании
+                </p>
                 <div className="ticket-block__head-price">
-                    <span>10000 Р</span>
+                    <span>10000 ₽</span>
                     <p>Стоимость для одного взрослого пассажира</p>
                 </div>
             </div>
@@ -17,8 +18,11 @@ const Ticket = () => {
                 <div className="ticket-block__to-direction">
                     <p>город</p>
                     <p>аэропорт</p>
-                    <span>код аэропорта</span>
+                    <span>(код)</span>
                     <img src={ rightArrow } alt="right-arrow" width="20" height="20" />
+                    <p>город</p>
+                    <p>аэропорт</p>
+                    <span>(код)</span>
                 </div>
                 <div className="ticket-block__to-data-time">
                     <p>время вылета</p>
